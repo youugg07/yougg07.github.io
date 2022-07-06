@@ -1,0 +1,364 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+*{
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    background-color: rgb(30,30,30);
+}
+
+h1{ font-size: 3.5em;}
+h2{ font-size: 2.7em;}
+h3{ font-size: 2em;}
+p{ font-size: 1.25em;}
+li{font-size: 1.25em;}
+.img_logo{
+    width: 150px;
+    margin-top: 30px;  
+    margin-bottom: 0;
+    margin-right: 50px;
+    margin-left: 30px;
+    border-radius: 10px;
+}
+.cabecera{
+    background-color:rgb(30,30,30);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+.navbar-nav{
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+    margin-right: 50px;
+    margin-left: 10px;
+}
+.nav-link{
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+    font-size: large;
+    padding: 1.0rem;
+    display: block;
+}
+.img_portada{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.link_google {
+    color: red;
+    font-size: 20px;
+}
+.principal {
+    margin: 100px;
+}
+
+footer{
+    margin-top: 100px;
+    background-color: rgb(30,30,30);
+    height: 75px;
+    text-align: center;
+    color:rgb(255, 255, 255)
+}
+#hero{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 80vh;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("img/encas.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+#hero h1{
+    color: white;
+}
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+    margin-left: 49px;
+}
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+button{
+    font-size: 1.25em;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: 2px solid rgba(0,0,0,0.3);
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    color: white;
+    background-color: rgb(130, 67, 167);
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+button:hover{
+    background-color: rgb(241, 135, 210);
+}
+
+.principal h2{
+    text-align: center;
+}
+#puntos{
+    background-color: rgb(30,30,30);
+    color: white;
+    text-align:center;
+}
+
+#puntos .container{
+    padding: 100px 0px;
+}
+
+#puntos h2{
+    margin-top: 0;
+    font-size: 3.2em;
+}
+
+#puntos p{
+    display: none;
+}
+
+#puntos .carta{
+    background-position: center;
+    background-size: cover;
+    padding: 50px 0px;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+.carta:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("https://blog.powerdata.es/hs-fs/hubfs/Stock%20images/cabecera%20machine%20learning.jpg?width=1000&name=cabecera%20machine%20learning.jpg");
+
+}
+
+.carta:nth-child(2){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("media/full-stack.jpg");
+}
+
+.carta:nth-child(3){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("media/python.jpg");
+
+}
+
+
+
+
+
+#puntos .punto-punto{
+    display: flex;
+    justify-content:center;
+}
+.carta:nth-child(3){
+    margin-top: 0px;
+}
+#puntos p{
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 60px;
+}
+
+#puntos h2{
+    font-size: 4em;
+}
+
+#puntos h3{
+    margin-top: 0;
+}
+
+#puntos .carta{
+    padding: 50px;
+    background-size: 100% 150px;
+    background-repeat: no-repeat;
+    background-position-y: 0;
+    background-color: rgba(50, 50, 50, 1);
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+}
+
+.carta:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("https://blog.powerdata.es/hs-fs/hubfs/Stock%20images/cabecera%20machine%20learning.jpg?width=1000&name=cabecera%20machine%20learning.jpg");
+
+}
+
+.carta:nth-child(2){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("https://mrinformatica.es/wp-content/uploads/42271822770_6d2a1d533f_b-800x400.jpg");
+}
+
+.carta:nth-child(3){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("https://thumbs.dreamstime.com/b/cerebro-humano-simb%C3%B3lico-para-ai-inteligencia-artificial-en-el-bot%C3%B3n-con-la-informaci%C3%B3n-que-conecta-l%C3%ADneas-fondo-de-c%C3%B3digo-216490395.jpg");
+
+}
+///////////////////
+#puntos{
+    background-color: rgb(30,30,30);
+    color: white;
+    text-align:center;
+}
+
+#puntos .container2{
+    padding: 0px 0px;
+}
+
+#puntos h2{
+    margin-top: 0;
+    font-size: 3.2em;
+}
+
+#puntos p{
+    display: none;
+}
+
+#puntos .carta2{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px 0px;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+.carta2:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("https://d29jy8ovkd5kcx.cloudfront.net/wp-content/uploads/2021/11/29093654/shutterstock_680929729-1.jpg");
+
+}
+
+.carta2:nth-child(2){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("https://pbs.twimg.com/media/EbLesBRX0AA7MTQ.png");
+}
+
+.carta2:nth-child(3){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("https://miro.medium.com/max/744/1*70CgiwfMr63R5rp_uAOjJw.jpeg");
+
+}
+
+
+
+
+
+#puntos .punto-punto2{
+    display: flex;
+    justify-content:center;
+  
+}
+
+#puntos p{
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 90px;
+}
+
+#puntos h2{
+    font-size: 4em;
+}
+
+#puntos h3{
+    margin-top: 0;
+}
+
+#puntos .carta2{
+    padding: 50px;
+    background-size: 100% 150px;
+    background-repeat: no-repeat;
+    background-position-y: 0;
+    background-color: rgba(50, 50, 50, 1);
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+}
+
+.carta2:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("https://d29jy8ovkd5kcx.cloudfront.net/wp-content/uploads/2021/11/29093654/shutterstock_680929729-1.jpg");
+
+}
+
+.carta2:nth-child(2){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("https://miro.medium.com/max/1080/0*3KoQ22n6444LQr0K");
+}
+
+.carta2:nth-child(3){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("https://www.salesforce.com/content/dam/blogs/br/diferenca-machine-e-deep-learning-min.jpg");
+
+}
